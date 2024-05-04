@@ -1,14 +1,15 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar'; // Assurez-vous que le chemin d'importation est correct
 import { Container } from '@mui/material';
-import HomePage from './components/HomePage';
 import Login from './components/Login';
 import BrowseCompanies from './components/BrowseCompanies';
 import Signup from './components/Signup';
+import HomePage from './components/HomePage';
+import Footer from './components/Footer';
 
 const App = () => {
-  return (
-    <Router>
+  return (<>
+  <Router>
       <NavBar />
       <Container>
         <Routes>
@@ -19,6 +20,9 @@ const App = () => {
         </Routes>
       </Container>
     </Router>
+    <Footer></Footer>
+  </>
+    
   );
 };
 

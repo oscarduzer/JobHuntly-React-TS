@@ -1,9 +1,13 @@
-
+import Discover from "./Discover";
+import MaSection from "./MaSection";
 
 function HomePage() {
-  return (
-    <div>HomePage</div>
-  )
+  return ( 
+    <>
+    <Discover/>
+    <MaSection/>
+    </>
+   );
 }
 
-export default HomePage
+export default HomePage;

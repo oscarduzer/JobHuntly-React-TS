@@ -1,25 +1,47 @@
-import { AppBar, Toolbar, Typography, Button, IconButton } from '@mui/material';
+import { AppBar, Box, Toolbar, Typography, Button, Divider, Grid } from '@mui/material';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const position = window.pageYOffset;
+      setScrollPosition(position);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <AppBar position="sticky" sx={{ flexGrow: 1 }} color="default">
-      <Toolbar>
-        {/* <IconButton  color="inherit" aria-label="logo"> */}
-          <img src="src/assets/images/JobHunty.jpg" alt="Logo" height="40px" /> 
-        {/* </IconButton> */}
-        <Typography variant="h6" >
-          <Button color="inherit" component={Link} to="/">Find Jobs</Button>
-        </Typography>
-        <Typography variant="h6" >
-          <Button color="inherit" component={Link} to="/browse-companies">Browse Companies</Button>
-        </Typography>
-        <Typography style={{ marginLeft: '40%' }}>
-          <Button color="primary" component={Link} to="/login">Login</Button>
-          <Button variant="contained" color="primary" component={Link} to="/signup">Sign up</Button>
-        </Typography>
-      </Toolbar>
-    </AppBar>
+    <>
+      <AppBar sx={{ boxShadow: "none", backgroundColor: scrollPosition > 50 ? 'white' : 'transparent' }}>
+        <Toolbar>
+          <Grid container justifyContent="space-between" alignItems="center">
+            <Grid item  sx={{ marginLeft: "80px" }}  display="flex" alignItems="center">
+              <img id='im' src="src\assets\images\LandingPageLogo.jpg" alt="logo" />
+              <Typography  id="logotext" variant="h6">JobHuntly</Typography>
+            </Grid>
+            <Grid item  display="flex" justifyContent="space-around" sx={{ marginRight: '450px', marginTop: '-20px' }}>
+            <Button id="anchor" component={Link} to="/">Find Jobs</Button>
+            <Button id="anchor" component={Link} to="/browse-companies">Browse Companies</Button>
+            </Grid>
+            <Grid sx={{ marginRight: "50px" }} item  display="flex" justifyContent="flex-end">
+              <Button component={Link} to="/login" sx={{fontWeight:"Bold",textTransform:"none"}}>Login</Button>
+              <Divider orientation="vertical" flexItem />
+              <Box ml={1}>
+                <Button variant="contained" component={Link} sx={{fontWeight:"Bold",textTransform:"none", borderRadius: 0}} to="/signup">Sign Up</Button>
+              </Box>
+            </Grid>
+          </Grid>
+        </Toolbar>
+      </AppBar>
+    </>
   );
 };
 
