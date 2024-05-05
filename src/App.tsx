@@ -6,6 +6,7 @@ import BrowseCompanies from './components/BrowseCompanies';
 import Signup from './components/Signup';
 import HomePage from './components/HomePage';
 import Footer from './components/Footer';
+import SearchJobs from './components/SearchJobs';
 
 const App = () => {
   return (<>
@@ -13,7 +14,8 @@ const App = () => {
       <NavBar />
       <Container>
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/" element={<SearchJobs />} />
+          <Route path="/first-link" element={<HomePage />} />
           <Route path="/browse-companies" element={<BrowseCompanies />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />

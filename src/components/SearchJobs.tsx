@@ -1,10 +1,20 @@
-import { Box, Button,InputAdornment, FormControl, Select, MenuItem, Grid, FilledInput, Divider } from '@mui/material';
+import { Box, Button,InputAdornment, FormControl, Select, MenuItem, Grid, FilledInput, Divider, Typography } from '@mui/material';
 import { Search, Room, KeyboardArrowDownRounded } from '@mui/icons-material';
+import LogoSection from './LogoSection';
+import JobCategoryCards from './JobCategoryCards';
 
-const SearchBar = () => {
+
+
+// La première page est celle ci
+
+
+const SearchJobs = () => {
   
-  return (
-    <Box id="searchBox" sx={{ backgroundColor: 'white', p: 2, display: 'flex', alignItems: 'center', ml:6, boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)', marginTop: '50px', marginBottom: '20px'  }}>
+  return (<>
+  <Box id="discoverBox" sx={{ mt:12, ml:5}}>
+  <img id="discoverImg" src="src\assets\images\SectionOneImage.jpg" alt="Discover" />
+   <Typography id="sectionDescription1">Find your next career at companies like HubSpot, Nike, and Dropbox</Typography>
+   <Box id="searchBox" sx={{ backgroundColor: 'white', p: 2, display: 'flex', alignItems: 'center', ml:6, boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)', marginTop: '50px', marginBottom: '20px'  }}>
       <Grid container spacing={2} alignItems="center">
       <Grid item xs={12} sm={4} sx={{ mt:-1}}>
   <FormControl variant="filled">
@@ -22,7 +32,7 @@ const SearchBar = () => {
     <Grid item>
         <Divider orientation="vertical" flexItem />
       </Grid>
-    <Grid item marginLeft={'20px'} >
+    <Grid item marginLeft={' 20px'} >
           <FormControl variant="standard" fullWidth>
             <Select
             IconComponent={KeyboardArrowDownRounded}
@@ -40,11 +50,19 @@ const SearchBar = () => {
           </FormControl>
         </Grid>
         <Grid item  >
-          <Button variant="contained" sx={{ borderRadius:0, boxShadow:'none', textTransform:'none', fontWeight:'bold' }} color="primary" >Search my job</Button>
+          <Button variant="contained" sx={{ borderRadius:0, boxShadow:'none', textTransform:'none', fontWeight:'bold' }} color="primary" >Search </Button>
         </Grid>
       </Grid>
     </Box>
+    <Typography id="sectionDescription">Popular: UI Designer, UX Researcher, Android, Admin</Typography> 
+  </Box>
+  <Box sx={{ p:10 }}>
+  </Box>
+  <LogoSection/>
+  <JobCategoryCards/>
+  </>
+    
   );
 };
 
-export default SearchBar;
+export default SearchJobs;

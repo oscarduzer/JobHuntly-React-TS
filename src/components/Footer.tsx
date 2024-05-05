@@ -7,7 +7,7 @@ const Footer = () => {
       <Grid container spacing={2} sx={{ marginTop: "30px", margin: 'auto', maxWidth: '90%' }}>
         <Grid item xs={12} sm={3}>
           <Box id="firstfooterid" display={"flex"} alignItems={"center"} >
-            <img id='imfooter' src="src\assets\images\LandingPageLogo.jpg" alt="logo" />
+          <img id='im' src="src\assets\images\Frame 3.svg" alt="logo" />
             <Typography id="firstHeader" sx={{ marginLeft: "10px" }} variant="h6">JobHuntly</Typography>
           </Box>
           <Typography sx={{ marginTop: "20px" }} id="footerDescription">

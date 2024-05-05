@@ -4,7 +4,7 @@ import { ExpandLess, ExpandMore,  ViewModule, ViewList } from '@mui/icons-materi
 import React from 'react';
 
 
-const MaSection = () => {
+const FindJobs = () => {
     const [openEmployment, setOpenEmployment] = useState(false);
     const [openCategorie, setOpenCategorie] = useState(false);
     const [openLevels, setOpenLevels] = useState(false);
@@ -36,47 +36,47 @@ const MaSection = () => {
       title: "Social Media Assistant",
       company: "Nomad",
       location: "Paris, France",
-      image: "/static/images/avatar/1.jpg",
+      image: "src/assets/images/Image1.jpg",
       jobType: ["Full-Time", "Marketing", "Design"]
     },
     {
         title: "Brand Designer",
         company: "Dropbox",
         location: "San Fransisco, USA",
-        image: "/static/images/avatar/1.jpg",
+        image: "src/assets/images/Image2.jpg",
         jobType: ["Full-Time", "Marketing", "Design"]
       },
       {
         title: "Interactive Developer",
         company: "Terraform",
         location: "Hamburg, Germany",
-        image: "/static/images/avatar/1.jpg",
+        image: "src/assets/images/Image3.jpg",
         jobType: ["Full-Time", "Marketing", "Design"]
       },
       {
         title: "Email Marketing",
         company: "Revolut",
         location: "Madrid, Spain",
-        image: "/static/images/avatar/1.jpg",
+        image: "src/assets/images/Image4.jpg",
         jobType: ["Full-Time", "Marketing", "Design"]
       },
       {
         title: "Lead Engineer",
         company: "Canva",
         location: "Ankara, Turkey",
-        image: "/static/images/avatar/1.jpg",
+        image: "src/assets/images/Image5.jpg",
         jobType: ["Full-Time", "Marketing", "Design"]
       },{
         title: "Product Designer",
         company: "ClassPass",
         location: "Berlin, Germany",
-        image: "/static/images/avatar/1.jpg",
+        image: "src/assets/images/Image6.jpg",
         jobType: ["Full-Time", "Marketing", "Design"]
       },{
         title: "Customer Manager",
         company: "Pitch",
         location: "Berlin, Germany",
-        image: "/static/images/avatar/1.jpg",
+        image: "src/assets/images/Image7.jpg",
         jobType: ["Full-Time", "Marketing", "Design"]
       },
     
@@ -294,4 +294,4 @@ const MaSection = () => {
   );
 };
 
-export default MaSection;
+export default FindJobs;
