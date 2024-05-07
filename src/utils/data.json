@@ -1,0 +1,403 @@
+{
+    "job_offers": [
+      {
+        "company": "Nomad",
+        "jobs": [
+          {
+            "title": "Senior UI/UX Designer",
+            "description": "Nomad is seeking a talented Senior UI/UX Designer to lead the design team in creating innovative user interfaces. Candidates should have extensive experience in user-centered design principles and proficiency in design tools such as Sketch or Figma.",
+            "employment_type": "Full Time",
+            "category": "Design",
+            "level": "Senior Level",
+            "salary_range": "$3000 or above"
+          },
+          {
+            "title": "Financial Analyst",
+            "description": "We're hiring a Financial Analyst to join our finance team. Responsibilities include financial modeling, forecasting, and budgeting. Candidates should have strong analytical skills and proficiency in Excel.",
+            "employment_type": "Full Time",
+            "category": "Finance",
+            "level": "Mid Level",
+            "salary_range": "$1500-$2000"
+          }
+        ]
+      },
+      {
+        "company": "DropBox",
+        "jobs": [
+          {
+            "title": "Software Engineer",
+            "description": "DropBox is looking for experienced Software Engineers to develop scalable and reliable software solutions. Candidates should have strong programming skills and experience with cloud technologies.",
+            "employment_type": "Full Time",
+            "category": "Technology",
+            "level": "Mid Level",
+            "salary_range": "$1500-$2000"
+          },
+          {
+            "title": "Marketing Manager",
+            "description": "Join our marketing team as a Marketing Manager to develop and execute marketing strategies. Candidates should have strong leadership skills and experience in digital marketing.",
+            "employment_type": "Full Time",
+            "category": "Marketing",
+            "level": "Mid Level",
+            "salary_range": "$1500-$2000"
+          }
+        ]
+      },
+      {
+        "company": "TerraForm",
+        "jobs": [
+          {
+            "title": "Senior Mechanical Engineer",
+            "description": "TerraForm is seeking a Senior Mechanical Engineer to design and develop mechanical systems. Candidates should have extensive experience in product design and prototyping.",
+            "employment_type": "Full Time",
+            "category": "Engineering",
+            "level": "Senior Level",
+            "salary_range": "$3000 or above"
+          },
+          {
+            "title": "Business Development Manager",
+            "description": "We're hiring a Business Development Manager to identify new business opportunities and build strategic partnerships. Candidates should have strong negotiation skills and a proven track record in sales.",
+            "employment_type": "Full Time",
+            "category": "Business",
+            "level": "Mid Level",
+            "salary_range": "$1500-$2000"
+          }
+        ]
+      },
+      {
+        "company": "Revolut",
+        "jobs": [
+          {
+            "title": "Data Scientist",
+            "description": "Revolut is seeking a Data Scientist to analyze large datasets and develop machine learning models. Candidates should have strong programming skills and experience in statistical analysis.",
+            "employment_type": "Full Time",
+            "category": "Technology",
+            "level": "Mid Level",
+            "salary_range": "$1500-$2000"
+          },
+          {
+            "title": "Financial Controller",
+            "description": "Join our finance team as a Financial Controller to oversee financial reporting and compliance. Candidates should have CPA certification and experience in financial management.",
+            "employment_type": "Full Time",
+            "category": "Finance",
+            "level": "Mid Level",
+            "salary_range": "$1500-$2000"
+          }
+        ]
+      },
+      {
+        "company": "Canva",
+        "jobs": [
+          {
+            "title": "Graphic Designer",
+            "description": "Canva is looking for creative Graphic Designers to design marketing materials and visual content. Candidates should have proficiency in Adobe Creative Suite and a strong portfolio.",
+            "employment_type": "Full Time",
+            "category": "Design",
+            "level": "Entry Level",
+            "salary_range": "$700-$1000"
+          },
+          {
+            "title": "HR Coordinator",
+            "description": "Join our HR team as an HR Coordinator to assist with recruitment and employee relations. Candidates should have strong organizational skills and attention to detail.",
+            "employment_type": "Full Time",
+            "category": "Human Resources",
+            "level": "Entry Level",
+            "salary_range": "$700-$1000"
+          }
+        ]
+      },
+      {
+        "company": "ClassPass",
+        "jobs": [
+          {
+            "title": "Marketing Specialist",
+            "description": "ClassPass is hiring a Marketing Specialist to develop and implement marketing campaigns. Candidates should have experience in email marketing and social media management.",
+            "employment_type": "Full Time",
+            "category": "Marketing",
+            "level": "Entry Level",
+            "salary_range": "$700-$1000"
+          },
+          {
+            "title": "Customer Service Representative",
+            "description": "Join our customer service team as a Customer Service Representative to assist users with their inquiries and issues. Candidates should have strong communication skills and a customer-focused attitude.",
+            "employment_type": "Part Time",
+            "category": "Business Service",
+            "level": "Entry Level",
+            "salary_range": "$1000-$1500"
+          }
+        ]
+      },
+      {
+        "company": "Pitch",
+        "jobs": [
+          {
+            "title": "Product Manager",
+            "description": "Pitch is seeking a Product Manager to lead the development of new product features. Candidates should have experience in product management and a strong understanding of user needs.",
+            "employment_type": "Full Time",
+            "category": "Technology",
+            "level": "Mid Level",
+            "salary_range": "$1500-$2000"
+          },
+          {
+            "title": "Sales Representative",
+            "description": "We're hiring motivated Sales Representatives to generate leads and close sales. Candidates should have strong communication skills and a passion for sales.",
+            "employment_type": "Full Time",
+            "category": "Sales",
+            "level": "Entry Level",
+            "salary_range": "$700-$1000"
+          }
+        ]
+      },
+      {
+        "company": "Discord",
+        "jobs": [
+          {
+            "title": "Community Manager",
+            "description": "Discord is looking for a Community Manager to engage with users and build a strong community presence. Candidates should have experience in community management and excellent communication skills.",
+            "employment_type": "Full Time",
+            "category": "Business Service",
+            "level": "Mid Level",
+            "salary_range": "$1500-$2000"
+          },
+          {
+            "title": "Software Engineer (Backend)",
+            "description": "Join our engineering team as a Backend Software Engineer to develop and maintain server-side applications. Candidates should have experience in building scalable and reliable backend systems.",
+            "employment_type": "Full Time",
+            "category": "Technology",
+            "level": "Mid Level",
+            "salary_range": "$1500-$2000"
+          }
+        ]
+      },
+      {
+        "company": "Maze",
+        "jobs": [
+          {
+            "title": "UI/UX Designer",
+            "description": "Maze is seeking a talented UI/UX Designer to create intuitive and visually appealing user interfaces. Candidates should have experience in user research, wireframing, and prototyping.",
+            "employment_type": "Full Time",
+            "category": "Design",
+            "level": "Mid Level",
+            "salary_range": "$1500-$2000"
+          },
+          {
+            "title": "HR Manager",
+            "description": "Join our HR team as an HR Manager to oversee recruitment, employee relations, and HR policies. Candidates should have HR management experience and strong leadership skills.",
+            "employment_type": "Full Time",
+            "category": "Human Resources",
+            "level": "Mid Level",
+            "salary_range": "$1500-$2000"
+          }
+        ]
+      },
+      {
+        "company": "Udacitty",
+        "jobs": [
+          {
+            "title": "Frontend Developer",
+            "description": "Udacitty is looking for Frontend Developers to build responsive and user-friendly web interfaces. Candidates should have proficiency in HTML, CSS, and JavaScript.",
+            "employment_type": "Full Time",
+            "category": "Development",
+            "level": "Entry Level",
+            "salary_range": "$700-$1000"
+          },
+          {
+            "title": "Financial Analyst",
+            "description": "Join our finance team as a Financial Analyst to analyze financial data and generate insights. Candidates should have strong analytical skills and attention to detail.",
+            "employment_type": "Full Time",
+            "category": "Finance",
+            "level": "Entry Level",
+            "salary_range": "$700-$1000"
+          }
+        ]
+      },
+      {
+        "company": "Webflow",
+        "jobs": [
+          {
+            "title": "Senior Software Engineer",
+            "description": "Webflow is seeking experienced Senior Software Engineers to lead the development of new features and improvements. Candidates should have expertise in web technologies such as HTML, CSS, and JavaScript.",
+            "employment_type": "Full Time",
+            "category": "Technology",
+            "level": "Senior Level",
+            "salary_range": "$3000 or above"
+          },
+          {
+            "title": "Marketing Coordinator",
+            "description": "Join our marketing team as a Marketing Coordinator to assist with campaign planning and execution. Candidates should have strong organizational skills and attention to detail.",
+            "employment_type": "Full Time",
+            "category": "Marketing",
+            "level": "Entry Level",
+            "salary_range": "$700-$1000"
+          }
+        ]
+      },
+      {
+        "company": "Foundation",
+        "jobs": [
+          {
+            "title": "Business Analyst",
+            "description": "Foundation is hiring a Business Analyst to analyze business processes and identify areas for improvement. Candidates should have strong problem-solving skills and experience in data analysis.",
+            "employment_type": "Full Time",
+            "category": "Business",
+            "level": "Mid Level",
+            "salary_range": "$1500-$2000"
+          },
+          {
+            "title": "HR Generalist",
+            "description": "Join our HR team as an HR Generalist to provide support in various HR functions including recruitment, training, and employee relations. Candidates should have HR experience and strong interpersonal skills.",
+            "employment_type": "Full Time",
+            "category": "Human Resources",
+            "level": "Mid Level",
+            "salary_range": "$1500-$2000"
+          }
+        ]
+      },
+      {
+        "company": "Pentagram",
+        "jobs": [
+          {
+            "title": "Senior Graphic Designer",
+            "description": "Pentagram is seeking a Senior Graphic Designer to work on a variety of design projects. Candidates should have a strong portfolio demonstrating creativity and expertise in graphic design.",
+            "employment_type": "Full Time",
+            "category": "Design",
+            "level": "Senior Level",
+            "salary_range": "$3000 or above"
+          },
+          {
+            "title": "Finance Manager",
+            "description": "Join our finance team as a Finance Manager to oversee financial operations and reporting. Candidates should have finance management experience and strong analytical skills.",
+            "employment_type": "Full Time",
+            "category": "Finance",
+            "level": "Mid Level",
+            "salary_range": "$1500-$2000"
+          }
+        ]
+      },
+      {
+        "company": "Wolff Olins",
+        "jobs": [
+          {
+            "title": "Brand Strategist",
+            "description": "Wolff Olins is hiring a Brand Strategist to develop branding strategies for clients. Candidates should have experience in brand management and a creative approach to problem-solving.",
+            "employment_type": "Full Time",
+            "category": "Business",
+            "level": "Mid Level",
+            "salary_range": "$1500-$2000"
+          },
+          {
+            "title": "HR Assistant",
+            "description": "Join our HR team as an HR Assistant to provide administrative support in various HR functions. Candidates should have strong organizational skills and attention to detail.",
+            "employment_type": "Full Time",
+            "category": "Human Resources",
+            "level": "Entry Level",
+            "salary_range": "$700-$1000"
+          }
+        ]
+      },
+      {
+        "company": "Clay",
+        "jobs": [
+          {
+            "title": "Product Designer",
+            "description": "Clay is seeking a Product Designer to create intuitive and user-friendly product interfaces. Candidates should have experience in user research, wireframing, and prototyping.",
+            "employment_type": "Full Time",
+            "category": "Design",
+            "level": "Mid Level",
+            "salary_range": "$1500-$2000"
+          },
+          {
+            "title": "Sales Manager",
+            "description": "Join our sales team as a Sales Manager to lead a team of sales representatives and drive revenue growth. Candidates should have sales management experience and strong leadership skills.",
+            "employment_type": "Full Time",
+            "category": "Sales",
+            "level": "Mid Level",
+            "salary_range": "$1500-$2000"
+          }
+        ]
+      },
+      {
+        "company": "MediaMonks",
+        "jobs": [
+          {
+            "title": "Digital Marketing Manager",
+            "description": "MediaMonks is looking for a Digital Marketing Manager to develop and implement digital marketing strategies. Candidates should have experience in SEO, SEM, and social media marketing.",
+            "employment_type": "Full Time",
+            "category": "Marketing",
+            "level": "Mid Level",
+            "salary_range": "$1500-$2000"
+          },
+          {
+            "title": "Software Developer",
+            "description": "Join our development team as a Software Developer to build and maintain software applications. Candidates should have expertise in programming languages such as Java, Python, or C++.",
+            "employment_type": "Full Time",
+            "category": "Development",
+            "level": "Mid Level",
+            "salary_range": "$1500-$2000"
+          }
+        ]
+      },
+      {
+        "company": "Packer",
+        "jobs": [
+          {
+            "title": "Logistics Coordinator",
+            "description": "Packer is seeking a Logistics Coordinator to manage shipping and transportation logistics. Candidates should have strong organizational skills and attention to detail.",
+            "employment_type": "Full Time",
+            "category": "Business Service",
+            "level": "Entry Level",
+            "salary_range": "$700-$1000"
+          },
+          {
+            "title": "Quality Assurance Specialist",
+            "description": "Join our QA team as a Quality Assurance Specialist to ensure the quality and reliability of our products. Candidates should have experience in software testing and QA methodologies.",
+            "employment_type": "Full Time",
+            "category": "Development",
+            "level": "Entry Level",
+            "salary_range": "$700-$1000"
+          }
+        ]
+      },
+      {
+        "company": "Square",
+        "jobs": [
+          {
+            "title": "Business Intelligence Analyst",
+            "description": "Square is hiring a Business Intelligence Analyst to analyze data and generate insights for business decision-making. Candidates should have strong analytical skills and experience in data visualization tools.",
+            "employment_type": "Full Time",
+            "category": "Business",
+            "level": "Mid Level",
+            "salary_range": "$1500-$2000"
+          },
+          {
+            "title": "Customer Support Specialist",
+            "description": "Join our customer support team as a Customer Support Specialist to assist users with their inquiries and technical issues. Candidates should have strong communication skills and a customer-focused attitude.",
+            "employment_type": "Full Time",
+            "category": "Business Service",
+            "level": "Entry Level",
+            "salary_range": "$700-$1000"
+          }
+        ]
+      },
+      {
+        "company": "Divy",
+        "jobs": [
+          {
+            "title": "Financial Advisor",
+            "description": "Divy is seeking Financial Advisors to provide investment advice and financial planning services to clients. Candidates should have relevant certifications and a strong understanding of financial markets.",
+            "employment_type": "Full Time",
+            "category": "Finance",
+            "level": "Mid Level",
+            "salary_range": "$1500-$2000"
+          },
+          {
+            "title": "Marketing Assistant",
+            "description": "Join our marketing team as a Marketing Assistant to support marketing campaigns and initiatives. Candidates should have strong organizational skills and attention to detail.",
+            "employment_type": "Full Time",
+            "category": "Marketing",
+            "level": "Entry Level",
+            "salary_range": "$700-$1000"
+          }
+        ]
+      }
+    ]
+  }
