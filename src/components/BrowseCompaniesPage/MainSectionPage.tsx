@@ -1,4 +1,4 @@
-import { Search} from "@mui/icons-material";
+import { Search,EggSharp} from "@mui/icons-material";
 import { Container, Grid, Typography,Box, FormControl, Divider, TextField, Autocomplete,Button, FormHelperText} from "@mui/material";
 import datas from "../../utils/data.json"
 
@@ -32,7 +32,7 @@ export default function MainSectionPage()
                                                 }}/>
                                             </Grid>
                                             <Grid item display={"flex"}><Divider sx={{color:"var(--gray)"}} orientation="vertical" flexItem/></Grid>
-                                            <Grid item display={"flex"} alignItems={"center"}></Grid>
+                                            <Grid item display={"flex"} alignItems={"center"}><EggSharp sx={{transform:"rotate(180deg)"}}/></Grid>
                                             <Grid item display={"flex"} alignItems={"center"} marginBottom={0.5}>
                                                 <Autocomplete
                                                 disablePortal
