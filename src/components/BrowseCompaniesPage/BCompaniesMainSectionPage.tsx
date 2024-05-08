@@ -3,7 +3,7 @@ import { Container, Grid, Typography,Box, FormControl, Divider, TextField, Autoc
 import datas from "../../utils/data.json"
 
 
-export default function MainSectionPage()
+export default function BCMainSectionPage()
 {
     let data:Array<Object>
     data=datas.job_offers.map(item=>item.jobs.map(i=>i.category))
