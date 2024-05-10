@@ -2,13 +2,16 @@ import { Box, Button,InputAdornment, FormControl, Select, MenuItem, Grid, Filled
 import { Search, Room, KeyboardArrowDownRounded } from '@mui/icons-material';
 import LogoSection from './LogoSection';
 import JobCategoryCards from './JobCategoryCards';
+import AfterCardItem from './AfterCardItem';
 
 
 
-// La première page est celle ci
+
+// La première page est celle ci la page 0
+//LandingPage anciennement SearchJobs
 
 
-const SearchJobs = () => {
+const LandingPage = () => {
   
   return (<>
   <Box id="discoverBox" sx={{ mt:12, ml:5}}>
@@ -60,9 +63,12 @@ const SearchJobs = () => {
   </Box>
   <LogoSection/>
   <JobCategoryCards/>
+  <Box sx={{ p:2, alignItems:'center', ml:10 }}>
+  <AfterCardItem/>
+  </Box>
   </>
     
   );
 };
 
-export default SearchJobs;
+export default LandingPage;

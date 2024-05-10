@@ -3,7 +3,7 @@ import { Box, Typography, Grid } from '@mui/material';
 
 function LogoSection() {
   return (
-    <Box sx={{ mt: 5, ml: 5 }}>
+    <Box sx={{ mt: 5, ml: 12 }}>
       <Typography variant="h4" sx={{mt:-10, mb: 2, fontSize: '19px', opacity: 0.5, ml:1, fontFamily: "-moz-initial" }}>Companies we helped grow</Typography>
       <Grid container spacing={10}>
         <Grid item><img src="src\assets\images\Vodafone.jpg" alt="Vodafone" /></Grid>

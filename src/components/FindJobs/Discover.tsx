@@ -1,5 +1,5 @@
-import FindJobs from "./FindJobs";
-import SearchBar from "./SearchBar";
+import CategoryJobsSection from "./CategoryJobsSection";
+import FindJobSearchBar from "./FindJobSearchBar";
 import { Box, Typography } from "@mui/material";
 
 function Discover() {
@@ -9,13 +9,13 @@ function Discover() {
    <Typography id="DiscoverDesc">Find your next career at companies like HubSpot, Nike, and Dropbox
     </Typography>
     <Box id='searchJobsD'>
-    <SearchBar/>
+    <FindJobSearchBar/>
     </Box>
     
     <Typography id="SearchDesc">Popular: UI Designer, UX Researcher, Android, Admin</Typography> 
   </Box>
    <Box>
-    <FindJobs/>
+    <CategoryJobsSection/>
    </Box>
   </>
    

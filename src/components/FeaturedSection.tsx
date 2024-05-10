@@ -1,6 +1,7 @@
 
 import { Box, Card, CardContent, Typography, Grid, Button } from '@mui/material';
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+
+import { ChevronRight } from '@mui/icons-material';
 
 const categories = ["Design", "Sales", "Marketing", "Finance", "Technology", "Engineering", "Business", "Human Resource"];
 type JobCounts = {
@@ -19,16 +20,16 @@ type JobCounts = {
   };
   
   
-function JobCategoryCards() {
+function FeaturedSection() {
   return (
     <Box sx={{ mt: 5, ml: 5 }}>
       <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 3 , ml:9}}>
         <Typography variant="h5" id='section_h'>
-          Explore by <Typography id='section_h1' variant='h5' component="span" >category</Typography>
+          Featured <Typography id='section_h1' variant='h5' component="span" >jobs</Typography>
         </Typography>
-        <Button endIcon={<ArrowForwardIosIcon />} sx={{ textTransform:'none' }}>Show all job</Button>
+        <Button endIcon={<ChevronRight />} sx={{ textTransform:'none' }}>Show all job</Button>
       </Box>
-      <Grid container spacing={2}>
+      <Grid container spacing={1}>
         {categories.map((category) => (
           <Grid item xs={12} sm={6} md={4} lg={3} key={category}>
             
@@ -39,7 +40,7 @@ function JobCategoryCards() {
                 <Typography variant="h5" sx={{ mt: 2 }}>{category}</Typography>
                 <Typography variant="body2" sx={{ mt: 1 }}>
   {Object.prototype.hasOwnProperty.call(jobCounts, category) ? `${jobCounts[category]} jobs available` : 'No jobs available'}
-  <ArrowForwardIosIcon sx={{ mt: 1 }} />
+  <ChevronRight sx={{ mt: 1 }} />
 </Typography>
 
                 
@@ -52,4 +53,4 @@ function JobCategoryCards() {
   );
 }
 
-export default JobCategoryCards;
+export default FeaturedSection;

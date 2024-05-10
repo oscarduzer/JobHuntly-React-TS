@@ -4,7 +4,7 @@ import { ExpandLess, ExpandMore,  ViewModule, ViewList } from '@mui/icons-materi
 import React from 'react';
 
 
-const FindJobs = () => {
+const CategoryJobsSection = () => {
     const [openEmployment, setOpenEmployment] = useState(false);
     const [openCategorie, setOpenCategorie] = useState(false);
     const [openLevels, setOpenLevels] = useState(false);
@@ -294,4 +294,4 @@ const FindJobs = () => {
   );
 };
 
-export default FindJobs;
+export default CategoryJobsSection;

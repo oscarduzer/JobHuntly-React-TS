@@ -31,13 +31,13 @@ const NavBar = () => {
             </Grid>
             <Grid item  display="flex" justifyContent="space-around" sx={{ marginRight: '450px', marginTop: '-20px' }}>
             <Button id="anchor" component={Link} to="/first-link">Find Jobs</Button>
-            <Button id="anchor" component={Link} to="/browse-companies">Browse Companies</Button>
+            <Button id="anchor" component={Link} to="#">Browse Companies</Button>
             </Grid>
             <Grid sx={{ marginRight: "50px" }} item  display="flex" justifyContent="flex-end">
-              <Button component={Link} to="/login" sx={{fontWeight:"Bold",textTransform:"none"}}>Login</Button>
+              <Button component={Link} to="#" sx={{fontWeight:"Bold",textTransform:"none"}}>Login</Button>
               <Divider orientation="vertical" flexItem />
               <Box ml={1}>
-                <Button variant="contained" component={Link} sx={{fontWeight:"Bold",textTransform:"none", borderRadius: 0, boxShadow:'none'}} to="/signup">Sign Up</Button>
+                <Button variant="contained" component={Link} sx={{fontWeight:"Bold",textTransform:"none", borderRadius: 0, boxShadow:'none'}} to="#">Sign Up</Button>
               </Box>
             </Grid>
           </Grid>

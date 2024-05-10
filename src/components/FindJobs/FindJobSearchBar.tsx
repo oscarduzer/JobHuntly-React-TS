@@ -1,7 +1,7 @@
 import { Box, Button,InputAdornment, FormControl, Select, MenuItem, Grid, FilledInput, Divider } from '@mui/material';
 import { Search, Room, KeyboardArrowDownRounded } from '@mui/icons-material';
 
-const SearchBar = () => {
+const FindJobSearchBar = () => {
   
   return (
     <Box id="searchBox" sx={{ backgroundColor: 'white', p: 2, display: 'flex', alignItems: 'center', ml:6, boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)', marginTop: '50px', marginBottom: '20px'  }}>
@@ -19,9 +19,9 @@ const SearchBar = () => {
     />
   </FormControl>
     </Grid>
-    <Grid item>
-        <Divider orientation="vertical" flexItem />
-      </Grid>
+    <Grid item style={{ width: '1px' }}>
+  <Divider orientation="vertical" flexItem />
+</Grid>
     <Grid item marginLeft={'20px'} >
           <FormControl variant="standard" fullWidth>
             <Select
@@ -47,4 +47,4 @@ const SearchBar = () => {
   );
 };
 
-export default SearchBar;
+export default FindJobSearchBar;

@@ -1,8 +1,8 @@
 import Discover from "./Discover";
 
+// Ceci est la page envoyé par le premier lien
 
-
-function HomePage() {
+function FindJobs() {
   return ( 
     <>
     <Discover/>
@@ -11,4 +11,4 @@ function HomePage() {
    );
 }
 
-export default HomePage;
+export default FindJobs;

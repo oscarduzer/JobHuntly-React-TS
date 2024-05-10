@@ -1,12 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import NavBar from './components/NavBar'; // Assurez-vous que le chemin d'importation est correct
+import NavBar from './components/PageUtils/NavBar'; // Assurez-vous que le chemin d'importation est correct
 import { Container } from '@mui/material';
-import Login from './components/Login';
-import BrowseCompanies from './components/BrowseCompanies';
-import Signup from './components/Signup';
-import HomePage from './components/HomePage';
-import Footer from './components/Footer';
-import SearchJobs from './components/SearchJobs';
+import FindJobs from './components/FindJobs/FindJobs';
+import Footer from './components/PageUtils/Footer';
+import LandingPage from './components/LandingPage/LandingPage';
+
 
 const App = () => {
   return (<>
@@ -14,11 +12,8 @@ const App = () => {
       <NavBar />
       <Container>
         <Routes>
-          <Route path="/" element={<SearchJobs />} />
-          <Route path="/first-link" element={<HomePage />} />
-          <Route path="/browse-companies" element={<BrowseCompanies />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<Signup />} />
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/first-link" element={<FindJobs />} />
         </Routes>
       </Container>
     </Router>
