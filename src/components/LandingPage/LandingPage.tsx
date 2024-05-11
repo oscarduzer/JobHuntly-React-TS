@@ -3,7 +3,7 @@ import { Search, Room, KeyboardArrowDownRounded } from '@mui/icons-material';
 import LogoSection from './LogoSection';
 import JobCategoryCards from './JobCategoryCards';
 import AfterCardItem from './AfterCardItem';
-import FeaturedSection from '../FeaturedSection';
+import FeaturedSection from './FeaturedSection';
 import LatestJobsOpen from './LatestJobsOpen';
 
 

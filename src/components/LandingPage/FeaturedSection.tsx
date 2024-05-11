@@ -1,6 +1,6 @@
 import { Box, Card, CardContent, Typography, Grid, Button, Chip, ListItemText, ListItemAvatar, Avatar } from '@mui/material';
 import { ArrowForward } from '@mui/icons-material';
-import { jobs } from './Data/jobsData';
+import { jobs } from '../Data/jobsData';
 
 // title: 'Email Marketing',
 // company: 'Revolut',
