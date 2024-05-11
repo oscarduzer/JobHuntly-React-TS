@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #F8F8FD;
+  background-color: white;
   margin: 0;
   padding: 0;
   
@@ -55,12 +55,12 @@ body {
 }
 #sectionDescription{
   font-size:12px;
-  color: rgb(244, 255, 255);
+  color: rgb(133, 179, 179);
   margin-left: 65px;
 }
 #sectionDescription1{
   font-size:14px;
-  color: aqua;
+  color: rgb(145, 175, 175);
   margin-left: 60px;
 }
 #searchBox{
@@ -115,10 +115,10 @@ body {
 }
 #section_h{
   font-weight: bold;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
 #section_h1{
   font-weight: bold;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
   color: #0c89e3;
 }

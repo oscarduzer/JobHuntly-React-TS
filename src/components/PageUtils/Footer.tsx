@@ -1,5 +1,5 @@
 import { Box, Typography, Link, TextField, Button, Divider, Grid, IconButton } from '@mui/material';
-import { Facebook, X, Instagram, LinkedIn  } from '@mui/icons-material';
+import { Facebook, X, Instagram, LinkedIn, SportsBasketballOutlined  } from '@mui/icons-material';
 
 const Footer = () => {
   return (
@@ -50,7 +50,7 @@ const Footer = () => {
           </Box>
         </Grid>
       </Grid>
-      <Divider sx={{ my: 2, backgroundColor: 'aliceblue' }} />
+      <Divider sx={{ my: 2, backgroundColor: 'gray' }} />
       <Box display="flex" justifyContent="space-between" alignItems="center">
         <Typography id="copyright">© {new Date().getFullYear()} @JobHuntly. All Right Reserved.</Typography>
         <Box>
@@ -59,6 +59,9 @@ const Footer = () => {
           </IconButton>
           <IconButton  id="icon" >
             <Instagram />
+          </IconButton>
+          <IconButton  id="icon" >
+            <SportsBasketballOutlined />
           </IconButton>
           <IconButton id="icon" >
             <LinkedIn />

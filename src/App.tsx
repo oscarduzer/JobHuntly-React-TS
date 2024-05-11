@@ -13,7 +13,7 @@ const App = () => {
       <Container>
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="/first-link" element={<FindJobs />} />
+          <Route path="/Find-Jobs" element={<FindJobs />} />
         </Routes>
       </Container>
     </Router>
