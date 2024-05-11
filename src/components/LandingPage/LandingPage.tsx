@@ -4,6 +4,7 @@ import LogoSection from './LogoSection';
 import JobCategoryCards from './JobCategoryCards';
 import AfterCardItem from './AfterCardItem';
 import FeaturedSection from '../FeaturedSection';
+import LatestJobsOpen from './LatestJobsOpen';
 
 
 
@@ -69,6 +70,9 @@ const LandingPage = () => {
     </Box>
     <Box sx={{ p: 2 }}>
       <FeaturedSection />
+    </Box>
+    <Box sx={{ p:2 }}>
+        <LatestJobsOpen/>
     </Box>
   </>
 
