@@ -1,14 +1,16 @@
 import Header from './components/Header'
 import './App.css'
-import BCMainSectionPage from './components/BrowseCompaniesPage/BCompaniesMainSectionPage'
-import RCompaniesSectionPage from './components/BrowseCompaniesPage/RCompaniesSectionPage'
+import BrowseCompaniesMainSectionPage from './components/BrowseCompaniesPage/BrowseCompaniesMainSectionPage'
+import RecommendedCompaniesSectionPage from './components/BrowseCompaniesPage/RecommendedCompaniesSectionPage'
+import CompaniesFilterSectionPage from './components/BrowseCompaniesPage/CompaniesFilterSectionPage'
 function App() {
 
   return (
     <>
         <Header/>
-        <BCMainSectionPage/>
-        <RCompaniesSectionPage/>
+        <BrowseCompaniesMainSectionPage/>
+        <RecommendedCompaniesSectionPage/>
+        <CompaniesFilterSectionPage/>
     </>
   )
 }

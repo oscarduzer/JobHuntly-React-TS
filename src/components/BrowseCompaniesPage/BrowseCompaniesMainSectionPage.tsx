@@ -1,9 +1,9 @@
-import { Search,LocationOnSharp} from "@mui/icons-material";
+import { Search,LocationOnOutlined} from "@mui/icons-material";
 import { Container, Grid, Typography,Box, FormControl, Divider, TextField, Autocomplete,Button, FormHelperText} from "@mui/material";
 import datas from "../../utils/data.json"
 
 
-export default function BCMainSectionPage()
+export default function BrowseCompaniesMainSectionPage()
 {
     let data:Array<Object>
     data=datas.job_offers.map(item=>item.jobs.map(i=>i.category))
@@ -32,7 +32,7 @@ export default function BCMainSectionPage()
                                                 }}/>
                                             </Grid>
                                             <Grid item display={"flex"}><Divider sx={{color:"var(--gray)"}} orientation="vertical" flexItem/></Grid>
-                                            <Grid item display={"flex"} alignItems={"center"}><LocationOnSharp /></Grid>
+                                            <Grid item display={"flex"} alignItems={"center"}><LocationOnOutlined /></Grid>
                                             <Grid item display={"flex"} alignItems={"center"} marginBottom={0.5}>
                                                 <Autocomplete
                                                 disablePortal
@@ -47,7 +47,7 @@ export default function BCMainSectionPage()
                                                 <Button sx={{bgcolor:'var(--blue)',fontWeight:"bold",textTransform:"capitalize",borderRadius:"0"}} variant="contained">Search</Button>
                                             </Grid>
                                         </Grid>
-                                        <FormHelperText sx={{mt:4,ml:-2}}><Typography fontSize={"1.4em"} fontFamily={"Epique"} variant="subtitle2">Popular : Twitter ,Microsoft ,Apple ,Facebook</Typography></FormHelperText>
+                                        <FormHelperText sx={{mt:4,ml:-2,fontSize:"1.4em",fontFamily:"Epique"}}>Popular : Twitter ,Microsoft ,Apple ,Facebook</FormHelperText>
                                 </FormControl>
                             </Grid>
                     </Grid>

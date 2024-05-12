@@ -14,6 +14,7 @@
 }
 #root{
     width: 100%;
+    overflow: hidden;
 }
 #BrowseCompaniesMainSectionPage{
     background-color: var(--white);

@@ -1,7 +1,7 @@
 import { Box,Button,Container ,Grid,Typography,Card,CardContent} from "@mui/material";
 
 
-export default function RCompaniesSectionPage()
+export default function RecommendedCompaniesSectionPage()
 {
     return (
         <>
