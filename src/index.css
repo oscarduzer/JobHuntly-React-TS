@@ -9,10 +9,13 @@
   --green:#56CDAD;
 }
 
-body {
+body ,html{
   background-color: white;
   margin: 0;
   padding: 0;
+  height: 100%;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
   
 }
 #logotext{
