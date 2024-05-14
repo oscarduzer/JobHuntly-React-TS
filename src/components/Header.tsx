@@ -1,5 +1,5 @@
 import { AppBar, Box, Button, Divider, Toolbar, Typography} from "@mui/material";
-import logo from "../assets/Header/1/Frame 3.svg"
+import logo from "../assets/Header/Frame 3.svg"
 
 function Header() {
 
