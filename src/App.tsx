@@ -6,6 +6,8 @@ import LandingPage from './components/LandingPage';
 import FindJobs from './components/FindJobs';
 import BrowseCompanies from './components/BrowseCompanies';
 import CompanyPage from './components/CompanyPage';
+import JobDescriptionPage from './components/JobDescriptionPage';
+
 
 function App() {
 
@@ -18,6 +20,7 @@ function App() {
                           <Route path="/FindJobs" Component={FindJobs}/>
                           <Route path="/BrowseCompanies" Component={BrowseCompanies}/>
                           <Route path="/Company" Component={CompanyPage}/>
+                          <Route path="/JobDescription" Component={JobDescriptionPage}/>
                     </Routes>
               </Router>
         <Footer/>

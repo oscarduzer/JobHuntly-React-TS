@@ -1,0 +1,12 @@
+/* Ajoutez ces styles dans votre fichier CSS */
+
+.company-profile {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .company-description,
+  .tech-stack {
+    width: 48%; /* Ajustez la largeur selon vos besoins */
+  }
+  

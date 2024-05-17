@@ -132,3 +132,157 @@
     
     color: #0c89e3;
   }
+  /* styles.css */
+
+
+
+.cadre {
+    width: 400px; /* Largeur du cadre */
+    height: 200px; /* Hauteur du cadre */
+    border: 2px solid black; /* Bordure de 2px de largeur, solide et noire */
+    padding: 20px; /* Marge intérieure de 20px */
+    /*border: 2px solid white; /* Bordure de 2px de largeur, solide et blanche */
+    
+    /*background-color: white; /* Fond blanc */
+  }
+.point {
+    display: inline-block; /* Permet de définir une largeur et une hauteur */
+    width: 20px; /* Largeur du point */
+    height: 20px; /* Hauteur du point */
+    border-radius: 50%; /* Rendre le point circulaire */
+    text-align: center; /* Centrer le contenu (le point) horizontalement */
+    line-height: 20px; /* Centrer le contenu (le point) verticalement */
+  }
+
+  .main-content {
+    display: flex;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.left-section {
+  flex: 1;
+  padding-right: 20px;
+  width: 60%; /* adjust the width to your liking */
+}
+
+.right-section {
+  flex: 1;
+  padding-left: 20px;
+  width: 40%; /* adjust the width to your liking */
+}
+
+/* Add this to make the columns stack on smaller screens */
+@media (max-width: 768px) {
+  .left-section, .right-section {
+    width: 100%;
+  }
+}
+
+.arrow-container {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid blue;
+}
+
+.cadre2 {
+  width: 400px; /* Largeur du cadre */
+  height: 200px; /* Hauteur du cadre */
+  border: 2px solid white; /* Bordure de 2px de largeur, solide et blanche */
+  padding: 20px; /* Marge intérieure de 20px */
+  background-color: #f3f3ee; /* Fond blanc */
+}
+
+.similar-jobs-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-section2 {
+  flex: 1; /* take up equal space */
+}
+
+.right-section2 {
+  flex: 1; /* take up equal space */
+}
+
+/* Add this to make the columns stack on smaller screens */
+@media (max-width: 768px) {
+  .left-section2, .right-section2 {
+    width: 100%;
+  } 
+}
+.green-circle {
+  width: 100px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin: 10px;
+  background-color: white;
+  
+}
+
+.orange-circle {
+  width: 100px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin: 10px;
+  background-color: white;
+  color: #FFB836;
+  border: 2px solid #FFB836;
+  
+}
+
+.blue-circle {
+  width: 100px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin: 10px;
+  background-color: white;
+  color:#4640DE ;
+  border: 2px solid #4640DE;
+}
+
+.circle-content {
+  text-align: center;
+}
+
+
+
+.green-circle .circle-content {
+  color: #56CDAD;
+}
+.similar-jobs-circles {
+  display: flex;
+}
+.benefits-row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.benefit-card {
+  flex: 1;
+  margin: 10px;
+}
+

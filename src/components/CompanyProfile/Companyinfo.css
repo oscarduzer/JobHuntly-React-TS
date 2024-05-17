@@ -1,0 +1,97 @@
+/* CompanyInfo.css */
+/* 
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.company-info header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.website-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+} */
+/* CompanyInfo.css */
+ /* CompanyInfo.css */
+
+/* .company-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+   */
+  /* .company-info header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+  } */
+  
+   /* CompanyInfo.css */
+/* 
+.company-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 20px;  
+  }
+  
+  .company-info header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  .company-info main {
+    display: flex;
+    flex-wrap: wrap;  
+  }
+  
+  .company-info main > * {
+    margin-right: 50px;  
+  }
+  
+  .company-info main > *:last-child {
+    margin-right: 10px;  
+  }
+  
+  .website-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    
+    text-decoration: none;
+    border-radius: 5px;
+  }
+   */
