@@ -1,4 +1,4 @@
-import Discover from "./Discover";
+import Discover from "./FindJobs/Discover";
 
 // Ceci est la page envoyé par le premier lien
 

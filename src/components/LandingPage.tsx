@@ -1,10 +1,10 @@
 import { Box, Button, InputAdornment, FormControl, Select, MenuItem, Grid, FilledInput, Divider, Typography } from '@mui/material';
 import { Search, Room, KeyboardArrowDownRounded } from '@mui/icons-material';
-import LogoSection from './LogoSection';
-import JobCategoryCards from './JobCategoryCards';
-import AfterCardItem from './AfterCardItem';
-import FeaturedSection from './FeaturedSection';
-import LatestJobsOpen from './LatestJobsOpen';
+import LogoSection from './LandingPage/LogoSection';
+import JobCategoryCards from './LandingPage/JobCategoryCards';
+import AfterCardItem from './LandingPage/AfterCardItem';
+import FeaturedSection from './LandingPage/FeaturedSection';
+import LatestJobsOpen from './LandingPage/LatestJobsOpen';
 
 
 
@@ -20,8 +20,8 @@ const LandingPage = () => {
       <img id="discoverImg" src="src\assets\images\SectionOneImage.jpg" alt="Discover" />
       <Typography id="sectionDescription1">Find your next career at companies like HubSpot, Nike, and Dropbox</Typography>
       <Box id="searchBox" sx={{ backgroundColor: 'white', p: 2, display: 'flex', alignItems: 'center', ml: 6, boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)', marginTop: '50px', marginBottom: '20px' }}>
-        <Grid container spacing={2} alignItems="center">
-          <Grid item xs={12} sm={4} sx={{ mt: -1 }}>
+        <Grid container direction={"row"} flexWrap={"nowrap"} spacing={2} alignItems="center">
+          <Grid item sx={{ mt: -1 }}>
             <FormControl variant="filled">
               <FilledInput
                 sx={{ background: '#fff', border: 'none', borderBottom: '0.5 solid', height: '40px', width: '200px', paddingBottom: '10px', ml: 3 }}

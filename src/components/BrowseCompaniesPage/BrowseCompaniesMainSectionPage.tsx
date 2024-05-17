@@ -39,7 +39,7 @@ export default function BrowseCompaniesMainSectionPage()
                                                 disableClearable
                                                  sx={{fontFamily:"Epique",width:{lg:400,md:300,xs:200}}} 
                                                  options={data}
-                                                 
+                                                 defaultValue={"Florence,Italy"}
                                                  renderInput={(params) => <TextField {...params} variant="standard"/>}
                                                  />
                                             </Grid>
@@ -47,7 +47,7 @@ export default function BrowseCompaniesMainSectionPage()
                                                 <Button sx={{bgcolor:'var(--blue)',fontWeight:"bold",textTransform:"capitalize",borderRadius:"0"}} variant="contained">Search</Button>
                                             </Grid>
                                         </Grid>
-                                        <FormHelperText sx={{mt:4,ml:-2,fontSize:"1.4em",fontFamily:"Epique"}}>Popular : Twitter ,Microsoft ,Apple ,Facebook</FormHelperText>
+                                        <FormHelperText sx={{mt:4,ml:-2,fontSize:"1em",fontFamily:"Epique"}}>Popular : Twitter ,Microsoft ,Apple ,Facebook</FormHelperText>
                                 </FormControl>
                             </Grid>
                     </Grid>

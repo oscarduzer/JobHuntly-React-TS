@@ -37,7 +37,7 @@ function FeaturedSection() {
       <Grid container spacing={1}>
         {jobs.map((job, index) => (
           <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
-            <Card sx={{ width:'fit-content',height: 'fit-content', border:'1px solid',borderColor:'aqua', borderRadius: 0, transition: '0.3s', '&:hover': { transform: 'scale(1.02)' } }}>
+            <Card sx={{ width:'fit-content',height: 'fit-content', border:'0.04em solid',borderColor:'var(--bg-color)', borderRadius: 0, transition: '0.3s', '&:hover': { transform: 'scale(1.02)' } }}>
               <CardContent>
               <Box sx={{ display: 'flex', alignItems: 'center' }}>
                     <ListItemAvatar >

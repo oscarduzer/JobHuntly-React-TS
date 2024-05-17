@@ -4,7 +4,7 @@ import { Search, Room, KeyboardArrowDownRounded } from '@mui/icons-material';
 const FindJobSearchBar = () => {
 
   return (
-    <Box id="searchBox" sx={{ backgroundColor: 'white', p: 2, display: 'flex', alignItems: 'center', ml: 6, boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)', marginTop: '50px', marginBottom: '20px' }}>
+    <Box id="searchBox1" sx={{ backgroundColor: 'white', p: 2, display: 'flex', alignItems: 'center', ml: 6, boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.2)', marginTop: '50px', marginBottom: '20px' }}>
       <Grid container spacing={2} alignItems="center">
         <Grid item xs={12} sm={4} sx={{ mt: -1 }}>
           <FormControl variant="filled">
