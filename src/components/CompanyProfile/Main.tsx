@@ -1,67 +1,7 @@
-// import { AppBar ,Box,Button,Toolbar, Typography} from "@mui/material";
 
-
-// function Header(){
-//  return( 
-//      <>
-//      <AppBar sx={{ boxShadow :"none"}}>
-//        <Toolbar sx={{ display:"flex" ,justifyContent:"space-between"}}>
-//           <Box display={"flex"}alignItems={"center"}> 
-//                 <Box display={"flex"} alignItems={"center"}>
-//                     <img src=""/>
-//                     <Typography variant ="h6">Jobhuntly </Typography>
-//                 </Box>
-//                 <Box display={"flex"} ml={6} mb={3}>
-//                     <Box><Typography fontSize={"1em"} variant ="h6"> Finds Jobs </Typography></Box>   
-//                     <Box><Typography fontSize={"1em"} variant ="h6"> Browse Companies </Typography></Box>        
-//                 </Box>
-//           </Box>
-//           <Box display={"flex"}>
-//                 <Box>
-//                      <Button sx={{ color:"blue" }}> Login</Button>
-//                 </Box>
-//                     <Box>
-//                        <Button sx={{ color:"white" }}  >Sign in</Button>
-//                     </Box>
-//           </Box>
-//        </Toolbar>
-//      </AppBar>
-      
-//     </>
-//     )
-// }
-// export default Header;
-
-// import './Header.css';
-// import Body from "./Body";
-
-// import { HealthAndSafety } from "@mui/icons-material";
-function Header() {
+function Main() {
     return (
         <>
-            <div className="AppBar" style={{ boxShadow: "none" }}>
-                <div className="Toolbar" style={{ display: "flex", justifyContent: "space-between" }}>
-                    <div className="Box" style={{ display: "flex", alignItems: "center" }}>
-                        <div className="Box" style={{ display: "flex", alignItems: "center" }}>
-                            <img src="" alt="Logo" />
-                            <h6>Jobhuntly</h6>
-                        </div>
-                        <div className="Box" style={{ display: "flex", marginLeft: "6px", marginBottom: "3px" }}>
-                            <div style={{ margin: "1px" }}><h6 style={{ fontSize: "1em" }}>Find Jobs</h6></div>
-                            <div style={{ margin: "1px" }}><h6 style={{ fontSize: "1em" }}>Browse Companies</h6></div>
-                        </div>
-                    </div>
-                    <div className="Box" style={{ display: "flex" }}>
-                        <div style={{ marginRight: "8px" }}>
-                            <button style={{ color: "blue" }}>Login</button>
-                        </div>
-                        <div>
-                            <button style={{ color: "white", backgroundColor: "#4640DE" }}>Sign Up</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <div className="middle">
                 <nav className="navbar">
                     <div className="menu1">
@@ -360,7 +300,8 @@ function Header() {
     
                         </div>
                     </div>
-                </div>
+                </div>wserRouter as Router,Route,Routes from 'react-router-dom';
+
             </div>
 
             
@@ -368,4 +309,4 @@ function Header() {
     );
 }
 
-export default Header;
+export default Main;

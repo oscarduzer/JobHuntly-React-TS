@@ -1,4 +1,4 @@
-import BrowseCompaniesMainSectionPage from "./BrowseCompaniesPage/BrowseCompaniesMainSectionPage"
+import BrowseCompaniesMainSectionPage from "./SearchCompaniesResultPage/BrowseCompaniesMainSectionPage"
 import SearchCompaniesFilterSectionPage from "./SearchCompaniesResultPage/SearchCompaniesFilterSectionPage"
 
 
